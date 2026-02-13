@@ -26,7 +26,7 @@ year = {2019}
 
 - Validation & Exploitation: The new AI integration features AI-powered detection through providers like Google Gemini and OpenAI by analyzing response headers and generating custom payloads, a smart pivot mechanism for targeting internal services like AWS Metadata, and automated vulnerability validation to confirm the leakage of sensitive data (for Reflected/Non-blind SSRF).
  
-- For Blind SSRF Detection, Integrated Out-of-Band (OOB) detection using Webhook.site to identify vulnerabilities where the server does not return a direct response.
+- For Blind SSRF Detection, Integrated Out-of-Band (OOB) detection using Webhook.site (by default) or user provided domain to identify vulnerabilities where the server does not return a direct response.
 
 ![alt text](https://github.com/In3tinct/See-SURF/blob/master/SSRF%20in%20action.png?raw=true)
 
